@@ -50,7 +50,7 @@ npx hardhat run scripts/deploy.js --network goerli
   ```
 - Withdraw
   ```
-  storeFund.connect(<Signer>).withdraw(<tokenaddress>, amount)
+  storeFund.connect(<Signer>).withdraw(<tokenaddress>, amount);
   ```
   
 ## Verify
