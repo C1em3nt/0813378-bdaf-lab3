@@ -7,6 +7,7 @@
   
   Default network is goerli.
 ## Test
+### Test on network:
 ```
 npx hardhat run scripts/deploy.js --network <your network>
 ```
