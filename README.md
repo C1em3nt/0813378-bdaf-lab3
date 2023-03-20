@@ -39,7 +39,7 @@ npx hardhat run scripts/deploy.js --network goerli
 
 [My ERC20 contract](https://goerli.etherscan.io/address/0x2883ef569838804b5b2a25fdc6ee3c543fd313d1) - Address: 0x2883ef569838804b5b2a25fdc6ee3c543fd313d1
 
-Use mint function to get the token.
+Use **mint** function to get the token.
   
 ## Verify
 ```
