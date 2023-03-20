@@ -1,10 +1,9 @@
 # BDAF lab3 - Simple ERC20 Safe
 
 ## Setting
-  Dependencise:
-  https://github.com/C1em3nt/0813378-bdaf-lab3/blob/main/package.json
+  [Dependencise]https://github.com/C1em3nt/0813378-bdaf-lab3/blob/main/package.json
   
-  Every libraries are in <node_modules>.
+  Every libraries are in [node_modules]https://github.com/C1em3nt/0813378-bdaf-lab3/tree/main/node_modules.
   
   Default network is goerli.
 ## Test
@@ -17,7 +16,7 @@ npx hardhat run scripts/deploy.js --network <your network>
   npx hardhat node
   ```
   
-  Another terminal:
+  Open another terminal:
   ```
   npx hardhat test test/test.js --network localhost
   ```
@@ -28,7 +27,7 @@ npx hardhat run scripts/deploy.js --network <your network>
 ```
 npx hardhat run scripts/deploy.js --network <your network>
 ```
-My contract: https://goerli.etherscan.io/address/0x8d063dbEB60cE973443E096A932575a980EA8520
+[My contract]https://goerli.etherscan.io/address/0x8d063dbEB60cE973443E096A932575a980EA8520
 ## Verify
 ```
 npx hardhat verify --network <your network> <DEPLOYED_CONTRACT_ADDRESS>
