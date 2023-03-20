@@ -1,7 +1,7 @@
 # BDAF lab3 - Simple ERC20 Safe
 
 ## Setting
-  - [Dependencis](https://github.com/C1em3nt/0813378-bdaf-lab3/blob/main/package.json)
+  - [Dependencies](https://github.com/C1em3nt/0813378-bdaf-lab3/blob/main/package.json)
   
   - Every libraries are in [node_modules](https://github.com/C1em3nt/0813378-bdaf-lab3/tree/main/node_modules).
   
