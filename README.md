@@ -4,6 +4,8 @@
   Dependencise:
   https://github.com/C1em3nt/0813378-bdaf-lab3/blob/main/package.json
   
+  Every libraries are in <node_modules>.
+  
   Default network is goerli.
 ## Test
 ```
