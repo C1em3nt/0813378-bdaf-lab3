@@ -37,8 +37,6 @@ npx hardhat run scripts/deploy.js --network goerli
 ```
 [My SafeERC20 contract](https://goerli.etherscan.io/address/0x8d063dbEB60cE973443E096A932575a980EA8520)
 
-[My ERC20 contract](https://goerli.etherscan.io/address/0x8d063dbEB60cE973443E096A932575a980EA8520)
-
 ## Interact with contract
 ### Etherscan
 - Deposit
