@@ -36,6 +36,23 @@ npx hardhat run scripts/deploy.js --network <your network>
 npx hardhat run scripts/deploy.js --network goerli
 ```
 [My contract](https://goerli.etherscan.io/address/0x8d063dbEB60cE973443E096A932575a980EA8520)
+
+## Interact with contract
+### API
+- Deposit
+![image](https://user-images.githubusercontent.com/87816657/226358704-56c4a462-2f88-4a9b-a659-b0c5ec1a59c4.png)
+- Withdraw
+![image](https://user-images.githubusercontent.com/87816657/226358917-009d6b9d-510a-48ed-b526-a26a2fbaf754.png)
+### Hardhat
+- Deposit
+  ```
+  storeFund.connect(<Signer>).deposit(<tokenaddress>, amount);
+  ```
+- Withdraw
+  ```
+  storeFund.connect(<Signer>).withdraw(<tokenaddress>, amount)
+  ```
+  
 ## Verify
 ```
 npx hardhat verify --network goerli <DEPLOYED_CONTRACT_ADDRESS>
