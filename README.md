@@ -1,11 +1,18 @@
 # BDAF lab3 - Simple ERC20 Safe
 
 ## Setting
-  [Dependencise](https://github.com/C1em3nt/0813378-bdaf-lab3/blob/main/package.json)
+  - [Dependencise](https://github.com/C1em3nt/0813378-bdaf-lab3/blob/main/package.json)
   
-  Every libraries are in [node_modules](https://github.com/C1em3nt/0813378-bdaf-lab3/tree/main/node_modules).
+  - Every libraries are in [node_modules](https://github.com/C1em3nt/0813378-bdaf-lab3/tree/main/node_modules).
   
-  Default network is goerli.
+  - Default network is goerli.
+  
+  - Change .env file.
+    ```
+    API_URL = "https://eth-goerli.g.alchemy.com/v2/your-api-key"
+    API_KEY = "your-api-key"
+    PRIVATE_KEY = "your-private-account-address"
+    ```
 ## Test
 ### Test on network:
 ```
