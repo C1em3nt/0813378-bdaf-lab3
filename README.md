@@ -16,7 +16,7 @@ npx hardhat run scripts/deploy.js --network <your network>
   npx hardhat node
   ```
   
-  Open another terminal:
+  - Open another terminal:
   ```
   npx hardhat test test/test.js --network localhost
   ```
@@ -25,10 +25,10 @@ npx hardhat run scripts/deploy.js --network <your network>
 
 ## Deploy
 ```
-npx hardhat run scripts/deploy.js --network <your network>
+npx hardhat run scripts/deploy.js --network goerli
 ```
 [My contract](https://goerli.etherscan.io/address/0x8d063dbEB60cE973443E096A932575a980EA8520)
 ## Verify
 ```
-npx hardhat verify --network <your network> <DEPLOYED_CONTRACT_ADDRESS>
+npx hardhat verify --network goerli <DEPLOYED_CONTRACT_ADDRESS>
 ```
