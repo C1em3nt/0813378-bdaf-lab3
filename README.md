@@ -44,8 +44,8 @@ npx hardhat run scripts/deploy.js --network goerli
 npx hardhat verify --network goerli <DEPLOYED_CONTRACT_ADDRESS>
 ```
 
-## Interact with contract
-Should approve first.
+## Interact with contract (Should approve your token first)
+
 ### Etherscan
 - Deposit
 ![image](https://user-images.githubusercontent.com/87816657/226358704-56c4a462-2f88-4a9b-a659-b0c5ec1a59c4.png)
